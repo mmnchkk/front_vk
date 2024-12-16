@@ -1,0 +1,110 @@
+.home-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 95vh;
+}
+
+.home {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-direction: column;
+}   
+
+.first-part {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.feelings {
+    display: flex;
+    gap:  50px;
+}
+
+.title {
+    font-size: 32px;
+}
+
+.home-date {
+    font-weight: 400;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.home-emoji {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 170px;
+}
+
+.emoji {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.emoji Button {
+    width: 50px;
+    height: 50px;
+}
+
+.reasons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slider {
+    margin: 20px 0;
+    width: 350px;
+}
+
+.maps {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 20px 10px;
+    gap: 5px;
+    max-width: 500px;
+    min-width: 350px;
+}
+
+.emotion-smile {
+    margin-bottom: 10px;
+    font-size: 90px;
+}
+
+.card-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    max-width: 300px;
+}
+
+.card-info div {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 0;
+}
+
+.card-info p, .card-info div p {
+    margin: 0;
+}
